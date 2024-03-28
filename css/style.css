@@ -9,6 +9,7 @@
   --fw-medium: 500;
   --fw-semiBold: 600;
   --fw-bold: 700;
+  --lh-normal: 1.4;
   /* === font === */
   /* === colors === */
   --white-clr: #fff;
@@ -39,7 +40,7 @@ html {
   scroll-behavior: smooth;
   scroll-margin-top: -80px;
 }
-body{
+body {
   overflow-x: hidden;
 }
 ul,
@@ -69,7 +70,7 @@ img {
   vertical-align: middle;
 }
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 /* =====Common css===== */
@@ -80,24 +81,23 @@ img {
   position: var(--absolute) !important;
   left: 0;
   top: 0;
-  background-color: var(--secondary-clr);
+  background-color: transparent;
 }
-.brand_logo{
+.brand_logo {
   max-width: 86px;
   height: 25px;
   overflow: hidden;
   object-fit: cover;
   object-position: center;
 }
-.navbar-toggler{
+.navbar-toggler {
   border: 1px solid transparent;
   box-shadow: none !important;
 }
 .navbar-toggler:hover {
   border: 1px solid var(--primary-clr);
-
 }
-.collapse_icon{
+.collapse_icon {
   color: var(--white-clr);
   font-size: 22px;
 }
@@ -108,7 +108,7 @@ img {
   padding: 0;
   font-family: var(--primary-font);
   font-weight: var(--fw-regular);
-  font-size: 16px;
+  font-size: 15px;
   color: var(--white-clr);
   text-transform: var(--uppercase);
   position: var(--relative);
@@ -145,7 +145,6 @@ img {
 /* ===Nav section end here=== */
 /* ===Banner section start here=== */
 #banner {
-  width: 100vw;
   padding: 230px 0;
   background: linear-gradient(
       rgba(243, 129, 129, 0.9),
@@ -160,29 +159,26 @@ img {
   text-align: center;
   color: var(--white-clr);
 }
-.banner_wrapper > h3 {
+.banner_wrapper h3 {
   font-family: var(--secondary-font);
   font-weight: var(--fw-regular);
   font-size: 72px;
   padding-bottom: 44px;
 }
-.banner_wrapper > h2 {
+.banner_wrapper h2 {
   font-family: var(--primary-font);
   font-weight: var(--fw-bold);
   font-size: 150px;
   text-transform: var(--uppercase);
-  margin-bottom: 125px;
   position: var(--relative);
+  line-height: var(--lh-normal);
+  padding-bottom: 150px;
 }
-.banner_wrapper > h2 > span {
-  display: block;
-  padding-bottom: 34px;
-}
-.banner_wrapper > h2::before {
+.banner_wrapper h2::before {
   position: var(--absolute);
   content: "";
   left: 50%;
-  bottom: -72px;
+  bottom: 38px;
   width: 60px;
   height: 3px;
   background-color: var(--white-clr);
@@ -192,7 +188,7 @@ img {
   -ms-transform: translate(-50%);
   -o-transform: translate(-50%);
 }
-.banner_wrapper > a {
+.banner_wrapper a {
   margin-top: 124px;
   padding: 12px 30px;
   font-family: var(--primary-font);

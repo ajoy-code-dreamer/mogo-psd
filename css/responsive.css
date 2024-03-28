@@ -16,8 +16,24 @@
     bottom: -5px;
     height: 2px;
   }
-
   /* === navbar === */
+  /* === banner === */
+  #banner {
+    padding: 150px 0;
+  }
+  .banner_wrapper h3 {
+    font-size: 32px;
+    padding-bottom: 15px;
+  }
+  .banner_wrapper h2 {
+    font-size: 55px;
+    line-height: 1.2;
+    padding-bottom: 80px;
+  }
+  .banner_wrapper a {
+    margin-top: unset;
+  }
+  /* === banner === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
@@ -38,8 +54,24 @@
     bottom: -5px;
     height: 2px;
   }
-
   /* === navbar === */
+  /* === banner === */
+  #banner {
+    padding: 150px 0;
+  }
+  .banner_wrapper h3 {
+    font-size: 48px;
+    padding-bottom: 20px;
+  }
+  .banner_wrapper h2 {
+    font-size: 80px;
+    line-height: 1.2;
+    padding-bottom: 80px;
+  }
+  .banner_wrapper a {
+    margin-top: unset;
+  }
+  /* === banner === */
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
@@ -57,18 +89,60 @@
     bottom: -5px;
     height: 2px;
   }
-
   /* === navbar === */
+  /* === banner === */
+  #banner {
+    padding: 150px 0;
+  }
+  .banner_wrapper h3 {
+    font-size: 60px;
+    padding-bottom: 25px;
+  }
+  .banner_wrapper h2 {
+    font-size: 100px;
+    line-height: 1.2;
+    padding-bottom: 80px;
+  }
+  .banner_wrapper a {
+    margin-top: unset;
+  }
+  /* === banner === */
 }
 /* ========================= device (md 768 > 992) ========================= */
 
 /* ========================= device (lg 992 > 1200) ========================= */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  /* === banner === */
+  .banner_wrapper h3 {
+    font-size: 60px;
+  }
+  .banner_wrapper h2 {
+    font-size: 120px;
+    line-height: 1.2;
+    padding-bottom: 80px;
+  }
+  .banner_wrapper a {
+    margin-top: unset;
+  }
+  /* === banner === */
 }
 /* ========================= device (lg 992 > 1200) ========================= */
 
 /* ========================= device (xl 1200 > 1400) ========================= */
 @media (min-width: 1200px) and (max-width: 1400px) {
+  /* === banner === */
+  .banner_wrapper h3 {
+    font-size: 60px;
+  }
+  .banner_wrapper h2 {
+    font-size: 120px;
+    line-height: 1.2;
+    padding-bottom: 80px;
+  }
+  .banner_wrapper a {
+    margin-top: unset;
+  }
+  /* === banner === */
 }
 /* ========================= device (xl 1200 > 1400) ========================= */
 /* ========================= device (xxl 1400 >>) ========================= */
