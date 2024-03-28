@@ -14,10 +14,10 @@
   --white-clr: #fff;
   --primary-clr: #fce38a;
   --secondary-clr: #f38181;
-  --third-clr:#95e1d3;
+  --third-clr: #95e1d3;
   --ash-clr: #999;
-  --ash-clr-2:#ccc;
-  --dark-clr:#333;
+  --ash-clr-2: #ccc;
+  --dark-clr: #333;
   /* === colors === */
   /* === methods === */
   --transition: all linear 0.3s;
@@ -33,13 +33,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 html {
   scroll-behavior: smooth;
   scroll-margin-top: -80px;
 }
+body{
+  overflow-x: hidden;
+}
 ul,
-ol {
+ol,
+menu {
   list-style-type: none;
 }
 a {
@@ -54,9 +59,14 @@ h5,
 h6,
 p {
   line-height: 0.8;
+  margin: 0;
+  padding: 0;
 }
 i {
   cursor: pointer;
+}
+img {
+  vertical-align: middle;
 }
 .container {
   width: 1200px;
@@ -64,28 +74,41 @@ i {
 }
 /* =====Common css===== */
 /* ===Nav section start here=== */
-nav {
-  width: 100vw;
+.navbar {
+  width: 100%;
   padding: 29px 0;
-  position: var(--absolute);
+  position: var(--absolute) !important;
   left: 0;
   top: 0;
-  background-color: transparent;
+  background-color: var(--secondary-clr);
 }
-.nav_wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.brand_logo{
+  max-width: 86px;
+  height: 25px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
 }
-.nav_wrapper > ul {
-  display: flex;
-  align-items: center;
+.navbar-toggler{
+  border: 1px solid transparent;
+  box-shadow: none !important;
+}
+.navbar-toggler:hover {
+  border: 1px solid var(--primary-clr);
+
+}
+.collapse_icon{
+  color: var(--white-clr);
+  font-size: 22px;
+}
+.navbar-nav {
   column-gap: 55px;
 }
-.nav_wrapper > ul > li > a {
+.nav-link {
+  padding: 0;
   font-family: var(--primary-font);
   font-weight: var(--fw-regular);
-  font-size: 14px;
+  font-size: 16px;
   color: var(--white-clr);
   text-transform: var(--uppercase);
   position: var(--relative);
@@ -95,10 +118,13 @@ nav {
   -ms-transition: var(--transition);
   -o-transition: var(--transition);
 }
-.nav_wrapper > ul > li > a:hover {
+.nav-link:hover {
   color: var(--primary-clr);
 }
-.nav_wrapper > ul > li > a::before {
+.nav-link:focus {
+  color: var(--primary-clr);
+}
+.nav-link::before {
   position: var(--absolute);
   content: "";
   left: 0;
@@ -113,7 +139,7 @@ nav {
   -ms-transition: var(--transition);
   -o-transition: var(--transition);
 }
-.nav_wrapper > ul > li > a:hover::before {
+.nav-link:hover::before {
   transform: scale(1);
 }
 /* ===Nav section end here=== */
