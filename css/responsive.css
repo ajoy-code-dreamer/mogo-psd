@@ -48,6 +48,11 @@
     margin: 40px 0;
   }
   /* === about === */
+  /* === counter === */
+  .counter_item > h3 {
+    padding-top: 15px;
+  }
+  /* === counter === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
@@ -100,6 +105,11 @@
     margin: 40px 0;
   }
   /* === about === */
+  /* === counter === */
+  .counter_item > h3 {
+    padding-top: 15px;
+  }
+  /* === counter === */
 }
 /* ========================= device (sm 576 > 768) ========================= */
 

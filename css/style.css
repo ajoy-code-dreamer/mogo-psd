@@ -310,7 +310,7 @@ img {
 /* === counter section start here === */
 #counter {
   padding: 90px 0;
-  width: 100vw;
+  width: 100%;
   background-color: var(--third-clr);
 }
 .counter_wrapper {
@@ -325,15 +325,16 @@ img {
   font-family: var(--primary-font);
   font-weight: var(--fw-bold);
   font-size: 72px;
-  text-transform: var(--uppercase);
   color: var(--white-clr);
+  text-transform: var(--uppercase);
 }
 .counter_item > h3 {
   font-family: var(--primary-font);
   font-weight: var(--fw-regular);
+  color: var(--white-clr);
   font-size: 14px;
   text-transform: var(--uppercase);
-  color: var(--white-clr);
+  line-height: var(--lh-normal);
   padding-top: 30px;
 }
 /* === counter section end here === */
