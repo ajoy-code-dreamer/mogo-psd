@@ -65,6 +65,29 @@
     padding-bottom: 10px;
   }
   /* === service === */
+  /* === slider === */
+  #slider{
+    padding: 70px 20px;
+  }
+  .slider_arrowLeft,
+  .slider_arrowRight {
+    display: none;
+  }
+  .slider_icon_big > i {
+    font-size: 40px;
+    padding: 20px;
+}
+  .slider_item {
+    padding: unset;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 15px;
+  }
+  .slider_message p {
+    text-align: justify;
+    font-size: 16px;
+  }
+  /* === slider === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
@@ -133,6 +156,30 @@
     padding-bottom: 10px;
   }
   /* === service === */
+  /* === slider === */
+  #slider{
+    padding: 70px 20px;
+  }
+  .slider_arrowLeft,
+  .slider_arrowRight {
+    display: none;
+  }
+  .slider_icon_big > i {
+    font-size: 50px;
+    padding: 30px;
+}
+  .slider_item {
+    padding: unset;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 15px;
+  }
+  .slider_message p {
+    text-align: justify;
+    font-size: 18px;
+  }
+  
+  /* === slider === */
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
@@ -187,6 +234,27 @@
     row-gap: 40px;
   }
   /* === service === */
+  /* === slider === */
+  #slider{
+    padding: 70px 40px;
+  }
+  .slider_arrowLeft,
+  .slider_arrowRight {
+    display: none;
+  }
+  .slider_icon_big > i {
+    font-size: 50px;
+    padding: 30px;
+}
+  .slider_item {
+    padding: unset;
+    column-gap: 40px;
+  }
+  .slider_message p {
+    text-align: justify;
+    font-size: 18px;
+  }
+  /* === slider === */
 }
 /* ========================= device (md 768 > 992) ========================= */
 
