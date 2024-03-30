@@ -7,7 +7,7 @@
   }
   .navbar-nav {
     row-gap: 10px;
-    background-color: rgba(243, 129, 129, 0.9);
+    background-color: rgba(243, 129, 129, 0.8);
     box-shadow: 3px 5px 20px 5px rgba(243, 129, 129);
     padding: 10px 0;
   }
@@ -66,7 +66,7 @@
   }
   /* === service === */
   /* === slider === */
-  #slider{
+  #slider {
     padding: 70px 20px;
   }
   .slider_arrowLeft,
@@ -76,7 +76,7 @@
   .slider_icon_big > i {
     font-size: 40px;
     padding: 20px;
-}
+  }
   .slider_item {
     padding: unset;
     flex-wrap: wrap;
@@ -88,6 +88,21 @@
     font-size: 16px;
   }
   /* === slider === */
+  /* === team === */
+  #team .common_heading > p {
+    padding: unset;
+    text-align: justify;
+  }
+  #team .common_heading > h2 {
+    margin-bottom: 60px;
+  }
+  .team_wrapper {
+    padding-top: 40px;
+  }
+  .team_item_wrapper > h3 {
+    padding-top: 18px;
+  }
+  /* === team === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
@@ -157,7 +172,7 @@
   }
   /* === service === */
   /* === slider === */
-  #slider{
+  #slider {
     padding: 70px 20px;
   }
   .slider_arrowLeft,
@@ -167,7 +182,7 @@
   .slider_icon_big > i {
     font-size: 50px;
     padding: 30px;
-}
+  }
   .slider_item {
     padding: unset;
     flex-wrap: wrap;
@@ -178,8 +193,22 @@
     text-align: justify;
     font-size: 18px;
   }
-  
+
   /* === slider === */
+  /* === team === */
+  #team .common_heading > p {
+    padding: unset;
+  }
+  #team .common_heading > h2 {
+    margin-bottom: 60px;
+  }
+  .team_wrapper {
+    padding-top: 40px;
+  }
+  .team_item_wrapper > h3 {
+    padding-top: 18px;
+  }
+  /* === team === */
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
@@ -235,7 +264,7 @@
   }
   /* === service === */
   /* === slider === */
-  #slider{
+  #slider {
     padding: 70px 40px;
   }
   .slider_arrowLeft,
@@ -245,7 +274,7 @@
   .slider_icon_big > i {
     font-size: 50px;
     padding: 30px;
-}
+  }
   .slider_item {
     padding: unset;
     column-gap: 40px;
@@ -255,6 +284,20 @@
     font-size: 18px;
   }
   /* === slider === */
+  /* === team === */
+  #team .common_heading > p {
+    padding: unset;
+  }
+  #team .common_heading > h2 {
+    margin-bottom: 60px;
+  }
+  .team_wrapper {
+    padding-top: 60px;
+  }
+  .team_item_wrapper > h3 {
+    padding-top: 18px;
+  }
+  /* === team === */
 }
 /* ========================= device (md 768 > 992) ========================= */
 

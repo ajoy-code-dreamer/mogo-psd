@@ -103,6 +103,8 @@ img {
 }
 .navbar-nav {
   column-gap: 55px;
+  z-index: 11111;
+  position: relative;
 }
 .nav-link {
   padding: 0;
@@ -443,17 +445,20 @@ img {
 }
 /* === slider section end here === */
 /* ===Team section start here=== */
+.team_wrapper{
+  padding-top: 90px;
+}
 .team_item_wrapper {
-  margin-top: 90px;
   text-align: center;
 }
 .team_item_box {
-  width: 380px;
-  height: 470px;
+  max-width: 380px;
+  max-height: 470px;
   overflow: hidden;
   object-fit: cover;
   object-position: center;
   position: var(--relative);
+  margin: 0 auto;
 }
 .team_icon_group {
   display: flex;
@@ -468,12 +473,20 @@ img {
   justify-content: center;
   align-items: center;
   margin: 1px;
-  transition: all 0.3s linear;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
 }
 .team_social_icon > a {
   color: var(--secondary-clr);
   font-size: 24px;
-  transition: all 0.3s linear;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
 }
 .team_social_icon:hover a {
   color: var(--white-clr);
