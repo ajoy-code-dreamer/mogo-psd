@@ -103,6 +103,22 @@
     padding-top: 18px;
   }
   /* === team === */
+  /* === work === */
+  #work .common_heading > h2 {
+    margin-bottom: 50px;
+  }
+  #work .common_heading > p {
+    padding: unset;
+    text-align: justify;
+  }
+  .gal_wrapper {
+    padding: 50px 0;
+  }
+  .gal_inner:hover .overlay,
+  .big_inner:hover .overlay {
+    display: none;
+  }
+  /* === work === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
@@ -209,6 +225,29 @@
     padding-top: 18px;
   }
   /* === team === */
+  /* === work === */
+  #work .common_heading > h2 {
+    margin-bottom: 50px;
+  }
+  #work .common_heading > p {
+    padding: 0 30px;
+  }
+  .gal_wrapper {
+    padding: 50px 0;
+  }
+  #work .overlay > h3 {
+    font-size: 12px;
+    padding: 10px 5px;
+    text-align: center;
+    line-height: 1.2;
+  }
+  #work .overlay > p {
+    text-align: center;
+    padding: 0 5px;
+    line-height: 1.2;
+    font-size: 13px;
+  }
+  /* === work === */
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
@@ -298,6 +337,29 @@
     padding-top: 18px;
   }
   /* === team === */
+  /* === work === */
+  #work .common_heading > h2 {
+    margin-bottom: 50px;
+  }
+  #work .common_heading > p {
+    padding: 0 50px;
+  }
+  .gal_wrapper {
+    padding: 50px 0;
+  }
+  #work .overlay > h3 {
+    font-size: 12px;
+    padding: 10px 5px;
+    text-align: center;
+    line-height: 1.2;
+  }
+  #work .overlay > p {
+    text-align: center;
+    padding: 0 5px;
+    line-height: 1.2;
+    font-size: 13px;
+  }
+  /* === work === */
 }
 /* ========================= device (md 768 > 992) ========================= */
 
